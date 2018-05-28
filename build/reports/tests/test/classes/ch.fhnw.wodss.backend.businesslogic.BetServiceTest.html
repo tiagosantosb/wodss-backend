@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ch.fhnw.wodss.backend.businesslogic.BetServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ch.fhnw.wodss.backend.businesslogic.BetServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ch.fhnw.wodss.backend.businesslogic.html">ch.fhnw.wodss.backend.businesslogic</a> &gt; BetServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.765s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">create_matchIdNull</td>
+<td>1.866s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">create_ok</td>
+<td>1.726s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">create_scoreLessThanZero</td>
+<td>1.715s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAll_ok</td>
+<td>1.726s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update_idDoesNotExist</td>
+<td>1.972s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update_ok</td>
+<td>2.284s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update_scoreLessThanZero</td>
+<td>1.735s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update_wrongUser</td>
+<td>1.741s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-05-28 13:51:48.893  INFO 46815 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [ch.fhnw.wodss.backend.businesslogic.BetServiceTest], using SpringBootContextLoader
+2018-05-28 13:51:48.894  INFO 46815 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [ch.fhnw.wodss.backend.businesslogic.BetServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-05-28 13:51:48.898  INFO 46815 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-28 13:51:48.901  INFO 46815 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6963801c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f1a9db6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5a6e3a1f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f5e6c93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ac86e04, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1154abc6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ac1c531, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@46071c0e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7f06e284, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b386c39, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f64d022, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1fd54ac, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@492784d5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4176606c]
+2018-05-28 13:51:48.934  INFO 46815 --- [    Test worker] c.f.w.b.businesslogic.BetServiceTest     : Starting BetServiceTest on Tiagos-MacBook-Pro with PID 46815 (started by tiago in /Users/tiago/CloudStation/home/Documents/FHNW/Modules/6. Semester/_workspace/wodss-backend)
+2018-05-28 13:51:48.935  INFO 46815 --- [    Test worker] c.f.w.b.businesslogic.BetServiceTest     : No active profile set, falling back to default profiles: default
+2018-05-28 13:51:48.938  INFO 46815 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@11889aed: startup date [Mon May 28 13:51:48 CEST 2018]; root of context hierarchy
+2018-05-28 13:51:49.735  INFO 46815 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d23fd52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-28 13:51:49.847  INFO 46815 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2018-05-28 13:51:49.848  INFO 46815 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2018-05-28 13:51:49.871  INFO 46815 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-28 13:51:49.871  INFO 46815 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-28 13:51:49.882  INFO 46815 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-05-28 13:51:49.994  INFO 46815 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2cc3b7c8'
+2018-05-28 13:51:49.994  INFO 46815 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-28 13:51:50.141  INFO 46815 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-05-28 13:51:50.148  INFO 46815 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-05-28 13:51:50.181  INFO 46815 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/Users/tiago/CloudStation/home/Documents/FHNW/Modules/6.%20Semester/_workspace/wodss-backend/build/resources/main/data.sql]
+2018-05-28 13:51:50.199  INFO 46815 --- [    Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/Users/tiago/CloudStation/home/Documents/FHNW/Modules/6.%20Semester/_workspace/wodss-backend/build/resources/main/data.sql] in 17 ms.
+2018-05-28 13:51:50.632  WARN 46815 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-28 13:51:50.680  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/registrieren || /passwortvergessen || /tipps || /gruppen || /rangliste || /profil || /ergebnisse]}&quot; onto public java.lang.String ch.fhnw.wodss.backend.web.FrontendController.frontend()
+2018-05-28 13:51:50.682  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/bets/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.BetController.update(java.lang.Long,ch.fhnw.wodss.backend.dto.BetChangeDto)
+2018-05-28 13:51:50.682  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/bets],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.BetController.create(ch.fhnw.wodss.backend.dto.BetDto)
+2018-05-28 13:51:50.683  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/bets],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;ch.fhnw.wodss.backend.dto.BetDto&gt;&gt; ch.fhnw.wodss.backend.web.rest.BetController.findAll()
+2018-05-28 13:51:50.686  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities/{id}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.delete(java.lang.Long)
+2018-05-28 13:51:50.686  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.create(ch.fhnw.wodss.backend.dto.CommunityCreateDto)
+2018-05-28 13:51:50.687  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;ch.fhnw.wodss.backend.dto.CommunityDataDto&gt;&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.findAll()
+2018-05-28 13:51:50.687  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities/{communityId}/joinrequests],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.createJoinRequest(java.lang.Long)
+2018-05-28 13:51:50.688  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities/{communityId}/joinrequests/{joinRequesterId}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.deleteJoinRequest(java.lang.Long,java.lang.Long)
+2018-05-28 13:51:50.688  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities/{communityId}/members],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.acceptJoinRequest(java.lang.Long,ch.fhnw.wodss.backend.dto.CommunityChangeDto)
+2018-05-28 13:51:50.689  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/communities/{communityId}/members/{memberId}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.CommunityController.deleteMember(java.lang.Long,java.lang.Long)
+2018-05-28 13:51:50.691  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/matches/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.MatchController.update(java.lang.Long,ch.fhnw.wodss.backend.dto.MatchChangeDto)
+2018-05-28 13:51:50.691  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/matches],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;ch.fhnw.wodss.backend.dto.MatchDto&gt;&gt; ch.fhnw.wodss.backend.web.rest.MatchController.findAll()
+2018-05-28 13:51:50.692  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/teams],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;ch.fhnw.wodss.backend.dto.TeamDto&gt;&gt; ch.fhnw.wodss.backend.web.rest.TeamController.findAll()
+2018-05-28 13:51:50.700  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.UserController.create(ch.fhnw.wodss.backend.dto.UserCreateDto)
+2018-05-28 13:51:50.701  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;ch.fhnw.wodss.backend.dto.UserPublicDto&gt;&gt; ch.fhnw.wodss.backend.web.rest.UserController.findAll()
+2018-05-28 13:51:50.702  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users/{id}],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.dto.UserPrivateDto&gt; ch.fhnw.wodss.backend.web.rest.UserController.getOne(java.lang.Long)
+2018-05-28 13:51:50.703  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.messaging.UpdateMessage&gt; ch.fhnw.wodss.backend.web.rest.UserController.updateData(java.lang.Long,ch.fhnw.wodss.backend.dto.UserDataChangeDto)
+2018-05-28 13:51:50.703  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users/{id}],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;ch.fhnw.wodss.backend.dto.UserPrivateDto&gt; ch.fhnw.wodss.backend.web.rest.UserController.updatePassword(java.lang.Long,ch.fhnw.wodss.backend.dto.UserPasswordChangeDto)
+2018-05-28 13:51:50.704  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users/passwordreset/request],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Void&gt; ch.fhnw.wodss.backend.web.rest.UserController.resetPasswordRequest(ch.fhnw.wodss.backend.dto.UserPasswordResetRequestDto)
+2018-05-28 13:51:50.705  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/api/users/passwordreset],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Void&gt; ch.fhnw.wodss.backend.web.rest.UserController.resetPassword(ch.fhnw.wodss.backend.dto.UserPasswordResetDto)
+2018-05-28 13:51:50.706  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-05-28 13:51:50.707  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-05-28 13:51:50.708  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-05-28 13:51:50.710  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-28 13:51:50.711  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-28 13:51:50.814  INFO 46815 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/api/swagger] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-05-28 13:51:50.827  INFO 46815 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-05-28 13:51:50.840  INFO 46815 --- [    Test worker] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/api/stomp/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-05-28 13:51:50.850  INFO 46815 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2018-05-28 13:51:51.001  INFO 46815 --- [    Test worker] o.s.s.w.a.c.ChannelProcessingFilter      : Validated configuration attributes
+2018-05-28 13:51:51.029  INFO 46815 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.access.channel.ChannelProcessingFilter@5e89dc35, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6939541e, org.springframework.security.web.context.SecurityContextPersistenceFilter@62a940fa, org.springframework.security.web.header.HeaderWriterFilter@997fc55, org.springframework.security.web.authentication.logout.LogoutFilter@392b21b4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e52aaf2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6809a0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3043bbdf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ad8f68f, org.springframework.security.web.session.SessionManagementFilter@658d9d8e, org.springframework.security.web.access.ExceptionTranslationFilter@66105baa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@428d7094]
+2018-05-28 13:51:51.184  INFO 46815 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 13:51:51.231  INFO 46815 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@11889aed: startup date [Mon May 28 13:51:48 CEST 2018]; root of context hierarchy
+2018-05-28 13:51:51.264  INFO 46815 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 13:51:51.264  INFO 46815 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-28 13:51:51.278  INFO 46815 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionHandlerAdvice
+2018-05-28 13:51:51.507  INFO 46815 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-28 13:51:51.508  INFO 46815 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-05-28 13:51:51.509  INFO 46815 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-05-28 13:51:51.518  INFO 46815 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-05-28 13:51:51.543  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2018-05-28 13:51:51.555  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2018-05-28 13:51:51.563  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2018-05-28 13:51:51.566  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2018-05-28 13:51:51.567  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_3
+2018-05-28 13:51:51.573  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_2
+2018-05-28 13:51:51.574  INFO 46815 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_4
+2018-05-28 13:51:51.587  INFO 46815 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2018-05-28 13:51:51.587  INFO 46815 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-05-28 13:51:51.588  INFO 46815 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2018-05-28 13:51:51.594  INFO 46815 --- [    Test worker] c.f.w.b.businesslogic.BetServiceTest     : Started BetServiceTest in 2.69 seconds (JVM running for 26.413)
+2018-05-28 13:51:53.903  INFO 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Updated bet 1 for user 1
+2018-05-28 13:51:55.876  WARN 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Non existing bet id received (uid=1)
+2018-05-28 13:51:57.743  WARN 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Invalid BetDto received (uid=1)
+2018-05-28 13:51:59.481  WARN 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Invalid BetChangeDto received (uid=1)
+2018-05-28 13:52:01.222  WARN 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : User is not creator of bet (betId=1, uid=2)
+2018-05-28 13:52:02.948  INFO 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Found 1 bets for user with id 1
+2018-05-28 13:52:04.666  WARN 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Invalid BetDto received (uid=1)
+2018-05-28 13:52:06.394  INFO 46815 --- [    Test worker] c.f.w.backend.businesslogic.BetService   : Created bet 1(uid=1)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at May 28, 2018 1:52:58 PM</p>
+</div>
+</div>
+</body>
+</html>
